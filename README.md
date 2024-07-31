@@ -60,7 +60,7 @@ python synthesize.py --ckpt_path [ckpt_path] --output_dir ./output
 
 
 
-## References :notebook_with_decorative_cover:
+## References 
 - [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558), Y. Ren, *et al*.
 - [FastSpeech: Fast, Robust and Controllable Text to Speech](https://arxiv.org/abs/1905.09263), Y. Ren, *et al*.
 - [rishikksh20's FastSpeech2 implementation](https://github.com/rishikksh20/FastSpeech2)
