@@ -10,7 +10,7 @@
 
 ## Spontaneous Feature Extraction
 * In this work, we use [MFA(Montreal Forced Alignment)](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) to find the spontaneous feature in speech.
-* After we find the spontaneous feature in speech, cluster these feature by Automatic Classification System. The implementation can be refered to [cluster.ipynb](https://colab.research.google.com/drive/1-eiyRbju-Y7PgfxpHDLlMigGBH1lJZUZ?usp=sharing)
+* After we find the spontaneous feature in speech, cluster these feature by Automatic Classification System. The implementation can be refered to [cluster.ipynb](https://colab.research.google.com/drive/1-eiyRbju-Y7PgfxpHDLlMigGBH1lJZUZ?usp=sharing).
 
 ## Steps
 1. preprocess.py
@@ -33,7 +33,6 @@
 ### Example commands:
 * LJSpeech:
 ``` shell
-#run the script for organizing LJSpeech first
 python ./script/organizeLJ.py
 
 python preprocess.py /storage/tts2021/LJSpeech-organized/wavs /storage/tts2021/LJSpeech-organized/txts ./processed/LJSpeech --prepare_mfa --mfa --create_dataset
@@ -63,4 +62,7 @@ python synthesize.py --ckpt_path [ckpt_path] --output_dir ./output
 ## References 
 - [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558), Y. Ren, *et al*.
 - [FastSpeech: Fast, Robust and Controllable Text to Speech](https://arxiv.org/abs/1905.09263), Y. Ren, *et al*.
+- [AdaSpeech 3: Adaptive Text to Speech for Spontaneous Style](https://arxiv.org/abs/2107.02530), Y. Yan, *et al*.
+- [SponTTS: modeling and transferring spontaneous style for TTS](https://arxiv.org/abs/2311.07179), H. Li, *et al*
 - [rishikksh20's FastSpeech2 implementation](https://github.com/rishikksh20/FastSpeech2)
+- [Ming024's FastSpeech2 implementation](https://github.com/ming024/FastSpeech2)
